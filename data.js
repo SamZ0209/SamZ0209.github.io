@@ -38,7 +38,7 @@ const PORTFOLIO = {
         "Added conversation history and user-approved persistent preferences."
       ],
       tech: ["Python", "LiveKit", "OpenAI", "Gemini", "Groq", "MCP"],
-      source: "", // paste the project GitHub repository URL when ready
+      source: "https://github.com/SamZ0209/VEDA-Voice-AI-Assistant.git", // paste the project GitHub repository URL when ready
       demo: "" // paste a live demo or video link, if available
     },
     {
@@ -56,7 +56,7 @@ const PORTFOLIO = {
         "Computes and displays a bottleneck path across a complete weighted graph."
       ],
       tech: ["C", "Xlib", "Graph algorithms"],
-      source: "",
+      source: "https://github.com/SamZ0209/Bottleneck-Path-Visualizer.git",
       demo: ""
     },
     {
@@ -74,7 +74,7 @@ const PORTFOLIO = {
         "Project details and a source-code link can be expanded after a final code review."
       ],
       tech: ["Python", "Automation"],
-      source: "",
+      source: "https://github.com/SamZ0209/auto_login_bot.git",
       demo: ""
     },
     {
@@ -92,7 +92,7 @@ const PORTFOLIO = {
         "Explored the workflow for running a web experience with Expo Go."
       ],
       tech: ["HTML", "CSS", "JavaScript"],
-      source: "",
+      source: "https://github.com/SamZ0209/Weather-App.git",
       demo: ""
     }
   ]
