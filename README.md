@@ -61,6 +61,3 @@ You do not need to purchase a domain. You can add one later if you want.
 - `favicon.svg` — browser tab icon
 - `.nojekyll` — ensures direct static file publishing on GitHub Pages
 
-## Next improvements
-
-Consider adding real project screenshots, video demos, links to public repositories, and a one-page résumé. These are optional; the site already works without them.
