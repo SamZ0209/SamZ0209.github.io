@@ -1,63 +1,128 @@
-# Developer Portfolio — free, static website
+# Developer Portfolio Website
 
-A responsive portfolio built with **HTML + CSS + JavaScript only**. No npm, frameworks, paid hosting, database, or API keys are required.
+Welcome to my personal developer portfolio! This website showcases my software development projects, technical skills, and experience in computer science.
 
-## 1. Preview locally
+I am currently pursuing a Master's degree in Computer Science at the City College of New York (CCNY). I am interested in software engineering, artificial intelligence, automation, and building applications that solve real-world problems.
 
-**Simplest option:** double-click `index.html` and open it in your browser.
+## Live Website
 
-**Optional local server:** In VS Code, open this folder and use the Live Server extension, or run:
+**Portfolio:** https://SamZ0209.github.io
 
-```bash
-python3 -m http.server 8000
-```
+## About the Website
 
-Then visit http://localhost:8000.
+I created this portfolio to provide a centralized place where recruiters, employers, and other developers can explore my projects and learn more about my technical background.
 
-## 2. Personalize before publishing
+The website features:
 
-Edit `data.js`. That's where you can update:
+- A responsive design for desktop and mobile devices
+- Dark and light mode support
+- An interactive project showcase with category filters
+- Information about my technical skills and education
+- Links to my GitHub repositories, résumé, and contact information
 
-- `name` and `initials` (both are placeholders initially)
-- Your headline, school, About section, and skills
-- `email`, `github`, `linkedin`, and `resume` (empty links are hidden)
-- Each project's title, description, bullet points, technologies, and source/demo URLs
+## Featured Projects
 
-The included projects (VEDA, Bottleneck Path Visualizer, Auto-Login Bot, Weather App) are **starter drafts** based on your previously discussed work. Review every description for accuracy before publishing. No source/demo URLs have been invented.
+### 1. VEDA — Voice AI Assistant
 
-If you want to include your résumé, put a file called `resume.pdf` next to `index.html` and set `resume: "resume.pdf"` in `data.js`.
+A personal AI assistant designed to support real-time voice conversations, tool execution, screen understanding, and persistent memory.
 
-**Important:** Never put passwords, access tokens, API credentials, or sensitive files in this public repository. For your auto-login project, remove saved credentials before sharing source code.
+**Technologies:** Python, LiveKit, OpenAI, Gemini, Groq, Model Context Protocol (MCP)
 
-## 3. Publish for $0 with GitHub Pages
+Key features include real-time voice interactions, integration with external tools through MCP, screen understanding using vision models, and conversation history with user-approved memory.
 
-1. Create a free GitHub account if you don't already have one.
-2. Create a new **public** repository named `<YOUR-GITHUB-USERNAME>.github.io` (use your actual username).
-3. Add the contents of this folder to the repository root. `index.html` must be in the root, not nested in another folder.
-4. Commit your files to the repository's `main` branch.
-5. In the repository, open **Settings → Pages**.
-6. Under **Build and deployment**, choose **Deploy from a branch**, then `main` and `/(root)`, and save.
-7. Your website will be available at `https://<YOUR-GITHUB-USERNAME>.github.io` once GitHub finishes publishing.
+### 2. Bottleneck Path Visualizer
 
-Reference: https://docs.github.com/en/pages/quickstart
+An interactive graph visualization application developed in C using the X Window System.
 
-You do not need to purchase a domain. You can add one later if you want.
+**Technologies:** C, Xlib, Graph Algorithms
 
-## 4. Website features
+The application reads coordinates from an input file, displays points graphically, allows users to select starting and ending locations, and computes a bottleneck path through the graph.
 
-- Responsive layout for mobile/tablet/desktop
-- Accessible navigation and project details
-- Project filters for AI, algorithms, and web work
-- Dark/light appearance toggle (saved in the browser when storage is available)
-- Optional clickable links to source code, demos, résumé, GitHub, LinkedIn, and email
-- No tracking scripts, third-party fonts, or external dependencies
+### 3. Auto-Login Automation Bot
 
-## Files
+A Python-based automation project designed to simplify repetitive login procedures.
 
-- `index.html` — page content and sections
-- `styles.css` — design, layout, and responsive styling
-- `data.js` — edit personal and project details here
-- `app.js` — small interactive features
-- `favicon.svg` — browser tab icon
-- `.nojekyll` — ensures direct static file publishing on GitHub Pages
+**Technologies:** Python, Automation
 
+This project explores automating repetitive user interactions and organizing automation tasks into reusable code.
+
+### 4. Weather Web Application
+
+A web application designed to display weather information through a user-friendly interface.
+
+**Technologies:** HTML, CSS, JavaScript
+
+This project focuses on frontend development, user interface design, and organizing interactive JavaScript functionality.
+
+## Technologies Used
+
+The portfolio itself is developed with:
+
+- **HTML5** — Website structure and content
+- **CSS3** — Styling, responsive layout, and animations
+- **JavaScript** — Interactive features and project filtering
+- **Git & GitHub** — Version control and source code management
+- **GitHub Pages** — Free website hosting
+
+The website does not require a backend server, database, or paid hosting service.
+
+## Running the Website Locally
+
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in a web browser.
+
+Alternatively, use the Live Server extension in VS Code to preview the website.
+
+No additional dependencies or installation steps are required.
+
+## Project Structure
+
+- `index.html` — Main website structure
+- `styles.css` — Website styling and responsive design
+- `app.js` — Interactive functionality
+- `data.js` — Portfolio information and project details
+- `favicon.svg` — Website icon
+- `.nojekyll` — GitHub Pages configuration
+- `README.md` — Project documentation
+
+## Deployment
+
+This website is hosted using GitHub Pages.
+
+To deploy your own version:
+
+1. Fork or download this repository.
+2. Update `data.js` with your personal information.
+3. Create a public GitHub repository named `YOUR-USERNAME.github.io`.
+4. Upload the website files to the repository.
+5. Navigate to **Settings → Pages**.
+6. Configure GitHub Pages to deploy from the `main` branch and root directory.
+
+Once deployed, the portfolio will be available at `https://YOUR-USERNAME.github.io`.
+
+## Future Improvements
+
+I plan to continue improving this portfolio as I develop additional projects and gain more experience.
+
+Potential improvements include:
+
+- Adding screenshots and video demonstrations
+- Expanding the technical explanations of individual projects
+- Including links to additional GitHub repositories
+- Showcasing new applications and academic projects
+- Improving accessibility and user experience
+
+## Contact
+
+Feel free to connect with me or explore my other projects.
+
+**GitHub:** https://github.com/SamZ0209
+
+**LinkedIn:** https://www.linkedin.com/in/samzhao2893/
+
+**Portfolio:** https://SamZ0209.github.io
+
+---
+
+*This portfolio is an ongoing project and will be updated as I continue developing my technical skills and building new applications.*
