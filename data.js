@@ -4,8 +4,8 @@
  * Don't put private credentials, API keys, or passwords in a public portfolio.
  */
 const PORTFOLIO = {
-  name: "Your Name",
-  initials: "YN",
+  name: "Samuel Zhao",
+  initials: "SZ",
   role: "Computer Science Graduate Student",
   university: "M.S. Computer Science · City College of New York",
   introduction: "I explore the space between software engineering, artificial intelligence, and practical problem solving — one project at a time.",
